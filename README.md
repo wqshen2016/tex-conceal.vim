@@ -14,15 +14,17 @@ This plugin extends the Conceal feature of Vim for LaTeX.
 ### Output
 <img src="https://github.com/KeitaNakamura/tex-conceal.vim/blob/master/output.png" width="800">
 
-## Instllation
-```vim:~/.vimrc
-Plugin 'KeitaNakamura/tex-conceal.vim'                 " for Vundle
-or
-Plug   'KeitaNakamura/tex-conceal.vim', {'for': 'tex'} " for VimPlug
+# tex-conceal
+A vim plugin for extended concealment of symbols in tex files.
+
+## Installation 
+```
+Plug 'wqshen2016/tex-conceal', {'for': 'tex'}
 ```
 
-## Recommend settings
-```vim:~/.vimrc
+## Settings
+```
+highlight clear Conceal
 set conceallevel=2
 let g:tex_conceal="abdgm"
 ```
